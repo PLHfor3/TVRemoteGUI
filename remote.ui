@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>remoteWindow</class>
+ <widget class="QMainWindow" name="remoteWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Remote Window</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="powerButton">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -35,7 +35,7 @@
      <string>Power</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="volumeUp">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -48,7 +48,7 @@
      <string>+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="volumeDown">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -61,7 +61,7 @@
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="channelDown">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -74,7 +74,7 @@
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="channelUp">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -113,7 +113,7 @@
      <string>Channel</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="Mute">
     <property name="geometry">
      <rect>
       <x>60</x>

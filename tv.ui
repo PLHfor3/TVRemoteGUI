@@ -1,35 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>tvWindow</class>
+ <widget class="QMainWindow" name="tvWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>551</width>
-    <height>515</height>
+    <width>540</width>
+    <height>413</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>TV Window</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="tvFrame">
     <property name="geometry">
      <rect>
-      <x>6</x>
-      <y>2</y>
+      <x>0</x>
+      <y>-50</y>
       <width>541</width>
       <height>511</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>541</width>
+      <height>511</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>541</width>
+      <height>511</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>istockphoto-952473194-612x612.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tvPicture">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>32</y>
+      <width>471</width>
+      <height>301</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/adsfgnhmjgfdsa.PNG</pixmap>
+     <pixmap>premleague.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="volumeLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>360</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Volume: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="channelLabel">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>360</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Channel: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>tvFrame</zorder>
+   <zorder>volumeLabel</zorder>
+   <zorder>channelLabel</zorder>
+   <zorder>tvPicture</zorder>
   </widget>
  </widget>
  <resources/>
